@@ -24,12 +24,10 @@ class MemoViewController: UIViewController {
             self.navigationItem.title = "Edit Memo"
             if memo == "江頭" {
                 myImageview.image = UIImage(named: "ega.jpg")
-            }
-            if memo == "エガちゃん" {
+            } else if memo == "エガちゃん" {
                 myImageview.image = UIImage(named: "ega2.jpg")
-            }
-            if memo == "コーラ" {
-                myImageview.image = UIImage(named: "egac.mp4")
+            } else {
+                myImageview.image = UIImage(named: "anago.jpeg")
             }
         }
         
