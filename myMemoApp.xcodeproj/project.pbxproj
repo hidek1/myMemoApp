@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710AA4C920C5021900E89791 /* ega.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710AA4C820C5021900E89791 /* ega.jpg */; };
+		710AA4CB20C5021E00E89791 /* ega2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710AA4CA20C5021E00E89791 /* ega2.jpg */; };
+		710AA4CD20C5022400E89791 /* anago.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 710AA4CC20C5022400E89791 /* anago.jpeg */; };
 		71122DEB20BBC265003151C5 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71122DEA20BBC265003151C5 /* MemoViewController.swift */; };
 		711B26AC20B7DEC30088EBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711B26AB20B7DEC30088EBEE /* AppDelegate.swift */; };
 		711B26B120B7DEC30088EBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711B26AF20B7DEC30088EBEE /* Main.storyboard */; };
@@ -15,9 +18,6 @@
 		711B26C120B7DEC40088EBEE /* myMemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711B26C020B7DEC40088EBEE /* myMemoAppTests.swift */; };
 		711B26CC20B7DEC50088EBEE /* myMemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711B26CB20B7DEC50088EBEE /* myMemoAppUITests.swift */; };
 		7125002220B7E56B00223B31 /* MemoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7125002120B7E56B00223B31 /* MemoTableTableViewController.swift */; };
-		718AD54120C127EE00359304 /* ega.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 718AD54020C127EE00359304 /* ega.jpg */; };
-		718AD54320C1693800359304 /* ega2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 718AD54220C1693800359304 /* ega2.jpg */; };
-		718AD54620C4FE3400359304 /* anago.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 718AD54520C4FE3300359304 /* anago.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		710AA4C820C5021900E89791 /* ega.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ega.jpg; sourceTree = "<group>"; };
+		710AA4CA20C5021E00E89791 /* ega2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ega2.jpg; sourceTree = "<group>"; };
+		710AA4CC20C5022400E89791 /* anago.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anago.jpeg; sourceTree = "<group>"; };
 		71122DEA20BBC265003151C5 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		711B26A820B7DEC30088EBEE /* myMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		711B26AB20B7DEC30088EBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,9 +55,6 @@
 		711B26CB20B7DEC50088EBEE /* myMemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMemoAppUITests.swift; sourceTree = "<group>"; };
 		711B26CD20B7DEC50088EBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7125002120B7E56B00223B31 /* MemoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableTableViewController.swift; sourceTree = "<group>"; };
-		718AD54020C127EE00359304 /* ega.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ega.jpg; path = ../../../../../../Applications/XAMPP/xamppfiles/htdocs/kami/picture_path/ega.jpg; sourceTree = "<group>"; };
-		718AD54220C1693800359304 /* ega2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ega2.jpg; path = ../../../ega2.jpg; sourceTree = "<group>"; };
-		718AD54520C4FE3300359304 /* anago.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = anago.jpeg; path = ../../../anago.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +109,9 @@
 			children = (
 				711B26AB20B7DEC30088EBEE /* AppDelegate.swift */,
 				711B26AF20B7DEC30088EBEE /* Main.storyboard */,
-				718AD54020C127EE00359304 /* ega.jpg */,
-				718AD54520C4FE3300359304 /* anago.jpeg */,
-				718AD54220C1693800359304 /* ega2.jpg */,
+				710AA4C820C5021900E89791 /* ega.jpg */,
+				710AA4CA20C5021E00E89791 /* ega2.jpg */,
+				710AA4CC20C5022400E89791 /* anago.jpeg */,
 				711B26B220B7DEC40088EBEE /* Assets.xcassets */,
 				711B26B420B7DEC40088EBEE /* LaunchScreen.storyboard */,
 				711B26B720B7DEC40088EBEE /* Info.plist */,
@@ -241,12 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				718AD54620C4FE3400359304 /* anago.jpeg in Resources */,
-				718AD54120C127EE00359304 /* ega.jpg in Resources */,
-				718AD54320C1693800359304 /* ega2.jpg in Resources */,
+				710AA4CD20C5022400E89791 /* anago.jpeg in Resources */,
 				711B26B620B7DEC40088EBEE /* LaunchScreen.storyboard in Resources */,
+				710AA4CB20C5021E00E89791 /* ega2.jpg in Resources */,
 				711B26B320B7DEC40088EBEE /* Assets.xcassets in Resources */,
 				711B26B120B7DEC30088EBEE /* Main.storyboard in Resources */,
+				710AA4C920C5021900E89791 /* ega.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
